@@ -8,7 +8,7 @@ public class App {
 		
 		astLogger.Error("No Data to Log");
 		
-		spcLogger.Log("No Data Found");
+		spcLogger.Error("No Data Found");
 
 	}
 
