@@ -12,7 +12,7 @@ public class SpacedLogger implements Logger{
 		
 	}
 	
-	public void spacedString(String string) {
+	private void spacedString(String string) {
 		for (int i = 0; i < string.length(); i++) {
 			System.out.print(string.charAt(i) + " ");
 		}

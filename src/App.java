@@ -6,11 +6,9 @@ public class App {
 		AsteriskLogger astLogger = new AsteriskLogger();
 		SpacedLogger spcLogger = new SpacedLogger();
 		
-		astLogger.Log("New Log Here");
-		astLogger.Error("No Data Found");
+		astLogger.Error("No Data to Log");
 		
-		spcLogger.Log("Spaced Log Here");
-		spcLogger.Error("No Data To Log");
+		spcLogger.Log("No Data Found");
 
 	}
 

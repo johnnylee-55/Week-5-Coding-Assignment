@@ -11,7 +11,7 @@ public class AsteriskLogger implements Logger{
 				
 	}
 	
-	public void printStringAsteriskErrorBox(String string) {
+	private void printStringAsteriskErrorBox(String string) {
 		for (int i = 1; i <= string.length() + 13; i++) {				// +13 for each character that isn't the input string
 			System.out.print("*");
 		}
